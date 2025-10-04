@@ -1,80 +1,449 @@
-# ARABIC LANGUAGE
-# إذا كنت تريد التحرك أسفل الخط ، من فضلك استخدم \ n. على سبيل المثال: SpermLord \ nCatalizcs.
-# بعد التغيير ، يجب عليك إعادة تشغيل الروبوت لاستخدامه.
-# ضع حرف # في بداية كل جملة إذا كنت لا تريد أن يقوم الكود بتشغيل هذه الأسطر.
-# شكراً لك، Yan Maglinte، على الترجمة العربية! يمكنك العثور على الترجمة في الرابط التالي: https://replit.com/@YanMaglinte
-# تمت إضافة المزيد من النص بواسطة Yan Maglinte! قد لا يكون البعض مرئيًا من الملفات الأخرى إذا لم يكن لديهم هذا الملف.
-
-# includes/listen.js
-
-listen.startLoadEnvironment = تابع تحميل متغير البيئة ...
-listen.loadedEnvironmentThread = تم تحميل متغير بيئة مؤشر الترابط بنجاح
-listen.loadedEnvironmentUser = تم تحميل متغير بيئة المستخدم بنجاح
-listen.successLoadEnvironment = تم تحميل متغير البيئة بنجاح
-listen.failLoadEnvironment = لا يمكن تحميل متغير البيئة ، الخطأ:٪ 1
-
-# includes / controller / Currency.js
-
-Currency.needObjectOrArray = يجب أن تكون صفيفًا أو كائنًا أو ربما كلاهما
-Currency.needObject = يجب أن تكون كائنًا
-Currency.needNumber = يجب أن يكون رقمًا
-
-# includes / controller / thread.js
-
-thread.needObjectOrArray = يجب أن تكون صفيفًا أو كائنًا أو ربما كلاهما
-thread.needObject = يجب أن تكون كائنًا
-
-# includes / controller / users. js
-
-users.needObjectOrArray = يجب أن تكون صفيفًا أو كائنًا أو ربما كلاهما
-users.needObject = يجب أن تكون كائنًا
-
-# include / handle / handleCommand.js
-
-handleCommand.userBanned = أنت غير قادر على استخدام الروبوت! \ n٪ 1 \ n٪ 2
-handleCommand.threadBanned = مؤشر الترابط الخاص بك غير قادر على استخدام الروبوت! \ n٪ 1 \ n٪ 2
-handleCommand.commandNotExist = الأمر الذي استخدمته غير موجود ، هل هذا "٪ 1" أم لا؟
-handleCommand.commandThreadBanned = مؤشر الترابط الخاص بك غير قادر على استخدام الأمر "٪ 1"
-handleCommand.commandUserBanned = أنت غير قادر على استخدام الأمر "٪ 1"
-handleCommand.threadNotAllowNSFW = مؤشر الترابط الخاص بك غير مسموح له باستخدام أوامر NSFW
-handleCommand.cantGetInfoThread = لا يمكن الحصول على معلومات سلسلة الرسائل الخاصة بك ، الخطأ:٪ 1
-handleCommand.permissionNotEnough = ليس لديك إذن لاستخدام الأمر "٪ 1"
-handleCommand.cantSetMessageReaction = وجود خطأ غير متوقع في setMessageReaction ، الخطأ:٪ 1
-handleCommand.executeCommand = [٪ 1] الأمر المستخدم:٪ 2 من قبل المستخدم:٪ 3 في مؤشر الترابط:٪ 4 | تضمين Args:٪ 5 | وقت المعالجة:٪ 6 مللي ثانية
-handleCommand.commandError = حدث خطأ غير متوقع عند استخدام الأمر٪ 1 ، الخطأ:٪ 2
-handleCommand.notMatched = ⚠ لا يتطلب هذا الأمر بادئة للبدء بها.
-handleCommand.noPrefix = لا يحتوي هذا الأمر على خاصية تكوين الأمر "usePrefix"
-handleCommand.commandNotFound = الأمر الذي استخدمته غير موجود.
-handleCommand.notFoundLanguage=لم يتم العثور على اللغة التي استخدمتها! يرجى التأكد من التحقق من اللغات المتاحة
-
-# includes/handle/handleCommandEvent.js
-
-handleCommandEvent.moduleError = وجود خطأ غير متوقع عند استخدام الأمر٪ 1 ، الخطأ:٪ 2
-
-# includes/handle/handleCreateDatabase.js
-
-handleCreateDatabase.newThread = مؤشر ترابط جديد:٪ 1
-handleCreateDatabase.newUser = مستخدم جديد٪ 1
-
-# includes/handle/handleEvent.js
-
-handleEvent.executeEvent = [٪ 1] تم تنفيذ الحدث:٪ 2 في مؤشر الترابط:٪ 3 | وقت المعالجة:٪ 4 مللي ثانية
-handleEvent.eventError = يوجد خطأ ما عند تنفيذ الحدث٪ 1 ، الخطأ:٪ 12
-
-# includes/handle/handleReaction.js
-
-handleReaction.missingValue = قيمة مفقودة للاستجابة لمشكلتك
-handleReaction.executeError = وجود خطأ ما عند الاستجابة لمشكلتك ، الخطأ:٪ 1
-
-# includes/handle/handleReply.js
-
-handleReply.missingValue = قيمة مفقودة للاستجابة لمشكلتك
-handleReply.executeError = وجود خطأ ما عند الاستجابة لمشكلتك ، الخطأ:٪ 1
-
-# includes/handle/handleSchedule.js
-
-handleSchedule.exectuteError = وجود خطأ ما عند الجدول في الوحدة النمطية٪ 1 ، الخطأ:٪ 2
-
-# utils/index.js
-
-uses.throwError = [!] الأمر الذي تستخدمه ليس صحيحًا في بناء الجملة ، الرجاء استخدام٪ 1help٪ 2 لمزيد من تفاصيل الاستخدام
+1. Tum muskurati ho to lagta hai zindagi khubsurat hai 💫  
+2. Dil karta hai tumhe har din tang karu 😜  
+3. Thoda attitude bhi zaroori hai warna log samajhte hain free ka maal hai 😏  
+4. Aaj mood romantic hai, coffee ke sath sirf tum chahiye ☕❤️  
+5. Tumhare bina life bilkul empty bottle jaisi lagti hai 🍼  
+6. Khaas to sab ke liye bano, lekin apne liye sabse khaas raho 😎  
+7. Kabhi kabhi lagta hai main hi cute hoon 😂  
+8. Dosti bhi kamaal ki cheez hai, mil jaaye to life ban jaaye 💖  
+9. Dil se nahi dimaag se khelo, warna game over ho jaayega 😈  
+10. Tumhara naam sunte hi smile aa jaati hai 😊  
+11. Life short hai, to smile zyada karo 😁  
+12. Mujhe ignore karna bhi ek art hai, shabash 👏  
+13. Shayari likhna bhi ek nasha hai 💭  
+14. Tum meri story nahi, meri poetry ho 💌  
+15. Dil karta hai ek selfie lo, caption likho “Kamaal ka banda” 📸  
+16. Khud pe itna yakeen rakho ke log confused ho jaayein 😎  
+17. Tera attitude to mere level se neeche hai 😏  
+18. Pyar me sab kuch milta hai bas time nahi ⏳  
+19. Har din ek nayi kahani likhte hain hum 💬  
+20. Aaj kuch zyada hi cute lag raha hoon na? 😂  
+21. Tumhari hasi meri battery charge kar deti hai 🔋  
+22. Jab tak dil hai tab tak dhamaka hai 💥  
+23. Thoda pyaar, thoda tiff, tabhi to relationship strong hota hai ❤️‍🔥  
+24. Tum online ho, dil offline ho gaya 😅  
+25. Mujhe “seen” karna bhi ek talent hai 👀  
+26. Khud se pyar karo, duniya khud piche aayegi 💃  
+27. Ek din hum bhi trending honge 😉  
+28. Dil karta hai duniya ke sab log tumhe dekhein, par chhune koi nahi 😌  
+29. Tera naam WhatsApp status me likhne ka mann hai 😍  
+30. Tumhare bina sab kuch adhura lagta hai 💔  
+31. Life me fun hona chahiye, warna tension hi tension 😅  
+32. Masti to tab aati hai jab dosto ke sath hoti hai 🤪  
+33. Tumhara attitude dekha, laga selfie le lu 📷  
+34. Shayari dil se likhta hoon, likhne ka matlab hota hai mehsoos karna ✍️  
+35. Tum meri life ki highlight ho 💫  
+36. Bina reason ke smile karo, log pareshaan ho jaayenge 😜  
+37. Aaj kal log dil nahi, Wi-Fi password maangte hain 😂  
+38. Dosti dil se hoti hai, message se nahi 💬  
+39. Har cute ladki ke peeche ek mast banda hota hai 😉  
+40. Mere jokes pe hasi aaye to comment kar dena 😅  
+41. Pyar ki baatein dil se hoti hain, DP se nahi 😌  
+42. Tumhari aankhein WhatsApp blue tick se zyada dangerous hain 👁️  
+43. Tera naam lete hi dil “typing...” karne lagta hai 💭  
+44. Har kisi ke life me ek pagal zaroor hota hai 😜  
+45. Aaj mood sad hai, par smile fake kar lunga 🙂  
+46. Tum meri khushi ka reason ho 💗  
+47. Zindagi short hai, masti unlimited hai 🤙  
+48. Tumhara attitude mujhe challenge lagta hai 💪  
+49. Shayari likhna asaan hai, dil ka haal likhna mushkil 💔  
+50. Tum meri kahani ka best chapter ho 📖  
+51. Coffee aur tum – dono addictive ho ☕❤️  
+52. Dil se pyar karo, par dimaag hamesha on rakho 😎  
+53. Har kisi ko impress nahi karte, bas apne logon ko khush rakhte hain 😌  
+54. Tum meri duniya ho, aur duniya gol hai 😅  
+55. Jab tak smile hai, tab tak style hai 😏  
+56. Duniya badal jaaye, par tu mat badalna 💕  
+57. Thoda attitude zaroor hai, par dil bhi saaf hai 😇  
+58. Dosto ke sath masti karna ek therapy hai 😂  
+59. Har roz ek naya meme banta hoon 😎  
+60. Tum mujhe ignore karti ho, mujhe cute lagta hai 😅  
+61. Shayari me dil ka haal likhta hoon, lecture nahi 😌  
+62. Tum meri duniya ka Google ho 💻  
+63. Masti meri pehchaan hai 😎  
+64. Tum smile karo, duniya khush ho jaaye 💫  
+65. Life simple rakho, attitude double 😏  
+66. Tum meri coffee ho – kadvi par addictive ☕  
+67. Jo mujhe samjhe, woh mera dost; jo judge kare, woh mehmaan 😎  
+68. Masti me bhi ek elegance hota hai 😜  
+69. Tere bina emoji bhi sad lagte hain 😞  
+70. Shayari likhne ka mood hai, par tum offline ho 😅  
+71. Khud pe itna pyaar karo ke log jealous ho jaayein 😎  
+72. Tum meri story nahi, mere status ho 💌  
+73. Masti + Dosti = Zindagi ❤️  
+74. Pyar ek game nahi, par sab khelte hain 😅  
+75. Tum online, main typing… dil offline 😔  
+76. Thoda pyar, thoda tiff, perfect combo 😍  
+77. Dosto ke sath har din weekend lagta hai 😁  
+78. Tum meri duniya ka favourite notification ho 🔔  
+79. Shayari likhta hoon dil se, likhne wale bahut hain par mehsoos kam karte hain 💭  
+80. Tumhara naam likhne ka mann hai, par password lag gaya 😅  
+81. Dil me feelings hain, par status me emojis 😜  
+82. Tumhara “hi” bhi ek vibe deta hai 😌  
+83. Life boring nahi, hum lazy hain 😴  
+84. Har ek friend zaroori hota hai, par tu special hai 💫  
+85. Tum meri duniya ka smile button ho 😍  
+86. Masti meri pehchaan hai, aur smile mera style 😎  
+87. Tum mere jokes pe nahi, mere dil pe hans lo 😂  
+88. Shayari likhne se pehle tumhara naam likh leta hoon 💌  
+89. Tum meri duniya ka filter ho, sab kuch sundar lagta hai 😅  
+90. Aaj kuch zyada hi handsome lag raha hoon 😉  
+91. Dosto ke bina duniya adhuri hai 🤝  
+92. Tum meri smile ka battery charger ho 🔋  
+93. Khud ko khush rakhna bhi ek art hai 🎨  
+94. Tum 101. Tum meri zindagi ka favourite notification ho 💌  
+102. Life simple hai, bas log complex bana dete hain 😅  
+103. Dil karta hai tumse har baat share karu 💭  
+104. Tum meri duniya ka soundtrack ho 🎵  
+105. Shayari me naam tera likha, duniya ne kaha “wah kya baat hai” 😍  
+106. Dosto ke bina party adhuri hai 🎉  
+107. Tumhari yaad Wi-Fi se tez aati hai 😂  
+108. Aaj thoda chill mode on hai 😎  
+109. Tera naam dil me likha aur password laga diya 🔒  
+110. Masti me bhi class honi chahiye 😏  
+111. Tum online ho, matlab dil happy hai 💫  
+112. Life ek game hai — khel smartly 😉  
+113. Shayari likhta hoon kyunki feelings chhup nahi sakti 💌  
+114. Tum meri duniya ka best emoji ho 😍  
+115. Dosto ke sath har gham halwa lagta hai 🍰  
+116. Thoda pyaar, thoda tiff, tabhi to bond strong hai ❤️‍🔥  
+117. Tum meri duniya ka “typing…” ho 😅  
+118. Dil karta hai tumhe har din tang karu 😜  
+119. Tumhari aankhein WhatsApp blue tick se zyada dangerous hain 👀  
+120. Life short hai, to smile zyada karo 😁  
+121. Masti mera passion hai 💥  
+122. Tum meri duniya ka best moment ho ✨  
+123. Shayari likhne ka mood hai, par tum offline ho 😔  
+124. Tum meri duniya ka surprise ho 🎁  
+125. Life me thoda swag zaroori hai 😎  
+126. Tum meri duniya ka best chapter ho 📖  
+127. Shayari me dil ka haal likhta hoon ❤️  
+128. Tum meri duniya ka dream ho 💭  
+129. Dosto ke sath masti = life 😜  
+130. Tum meri duniya ka magic word ho ✨  
+131. Life thodi filmy honi chahiye 🎬  
+132. Tum meri duniya ka ringtone ho 🔔  
+133. Shayari me tumhara naam likhta hoon 💌  
+134. Tum meri duniya ka best smile ho 😊  
+135. Dosti me “sorry” aur “thank you” allowed nahi 😅  
+136. Tum meri duniya ka glitter ho ✨  
+137. Life me fun hona chahiye 😎  
+138. Tum meri duniya ka refresh button ho 🔁  
+139. Shayari me emotions chhup jaate hain 💭  
+140. Tum meri duniya ka sweet chapter ho 💕  
+141. Dosto ke bina duniya boring hai 😴  
+142. Tum meri duniya ka filter ho 📸  
+143. Life ek meme hai, bas sense of humor hona chahiye 😂  
+144. Tum meri duniya ka highlight ho 💫  
+145. Shayari me pyaar chhupa hai 💌  
+146. Tum meri duniya ka light mode ho ☀️  
+147. Dosto ke sath har din special hota hai 🤝  
+148. Tum meri duniya ka playlist ho 🎶  
+149. Life simple rakho, smile wide 😁  
+150. Tum meri duniya ka caption ho 😍  
+151. Shayari me tumhara tasveer hota hai 💕  
+152. Tum meri duniya ka sparkle ho ✨  
+153. Dosto ke bina duniya bekar hai 😜  
+154. Tum meri duniya ka heartbeat ho 💓  
+155. Life short hai, enjoy full 😎  
+156. Tum meri duniya ka magic ho ✨  
+157. Shayari me tumhara zikr zaroor hota hai 💌  
+158. Tum meri duniya ka joy ho 😄  
+159. Dosto ke sath masti full on 🤪  
+160. Tum meri duniya ka smile button ho 😊  
+161. Life me dosti hi sab kuch hai ❤️  
+162. Tum meri duniya ka charm ho 😍  
+163. Shayari me dil ki baatein hoti hain 💭  
+164. Tum meri duniya ka soft corner ho 💗  
+165. Dosto ke bina coffee bhi feeki lagti hai ☕  
+166. Tum meri duniya ka crazy part ho 🤪  
+167. Life thodi khatti-meethi honi chahiye 😋  
+168. Tum meri duniya ka sunshine ho ☀️  
+169. Shayari me tumhara naam sabse pehle 💌  
+170. Tum meri duniya ka love note ho 💖  
+171. Dosto ke sath life ek adventure hai 🚀  
+172. Tum meri duniya ka chill mode ho 😎  
+173. Life me happiness zaroori hai 😁  
+174. Tum meri duniya ka heart emoji ho 💓  
+175. Shayari me tum meri muse ho ✍️  
+176. Tum meri duniya ka laughter ho 😂  
+177. Dosto ke bina life incomplete hai 😅  
+178. Tum meri duniya ka cute version ho 😍  
+179. Life ek selfie hai — smile please 📸  
+180. Tum meri duniya ka melody ho 🎵  
+181. Shayari me tumhara reflection hota hai 💭  
+182. Tum meri duniya ka best vibe ho 💫  
+183. Dosto ke bina duniya dull hai 😜  
+184. Tum meri duniya ka glow ho ✨  
+185. Life me khush rehna bhi ek skill hai 😌  
+186. Tum meri duniya ka soft tone ho 🎶  
+187. Shayari me tumhara effect hota hai 💕  
+188. Tum meri duniya ka blush ho 😊  
+189. Dosto ke bina duniya adhoori hai 💔  
+190. Tum meri duniya ka chill vibe ho 😎  
+191. Life me smile mandatory hai 😁  
+192. Tum meri duniya ka emoji pack ho 😂  
+193. Shayari me tumhara essence hota hai 💌  
+194. Tum meri duniya ka calm zone ho 😇  
+195. Dosto ke bina duniya pareshan hai 🤪  
+196. Tum meri duniya ka glowstick ho 💡  
+197. Life me masti zaroori hai 😜  
+198. Tum meri duniya ka status ho 💬  
+199. Shayari me tum meri feeling ho 💖  
+200. Tum meri duniya ka end line ho ❤️  
+201. Jab tu hans ta hai lagta hai duniya roshan ho gayi 😍  
+202. Dil ka connection Wi-Fi se nahi, vibes se hota hai 💫  
+203. Masti ka dose roz lena zaroori hai 😜  
+204. Tum meri duniya ka chill factor ho ❄️  
+205. Shayari likhne ka maza tab aata hai jab tum online ho 😅  
+206. Tum meri duniya ka glow-up ho ✨  
+207. Life ek vibe hai, tune kar lo 😎  
+208. Tum meri duniya ka ringtone ho 🔔  
+209. Dosto ke bina filter useless hai 😂  
+210. Tum meri duniya ka sparkle star ho 🌟  
+211. Life short, smile long 😁  
+212. Tum meri duniya ka heart beat ho 💓  
+213. Shayari me tumhara mention fix hai 💌  
+214. Tum meri duniya ka love sign ho 💖  
+215. Dosto ke sath har din weekend 😅  
+216. Tum meri duniya ka soft spot ho 💕  
+217. Life me khud se pyar karo 😇  
+218. Tum meri duniya ka perfect caption ho 📸  
+219. Shayari me tumhara angle alag hi hai 😍  
+220. Tum meri duniya ka emoji queen ho 👑  
+221. Dosto ke bina duniya ka time slow lagta hai ⏰  
+222. Tum meri duniya ka light mode ho ☀️  
+223. Life ek kahani hai, tu mera twist 😜  
+224. Tum meri duniya ka filter plus ho ✨  
+225. Shayari me tumhara version pro hai 💌  
+226. Tum meri duniya ka smile button ho 😁  
+227. Dosto ke bina duniya boring lagti hai 😴  
+228. Tum meri duniya ka cute bug ho 🐞  
+229. Life ek dance hai, tu mera rhythm 💃  
+230. Tum meri duniya ka love story ho 💕  
+231. Shayari me tumhara tag line likhta hoon 💭  
+232. Tum meri duniya ka moonlight ho 🌙  
+233. Dosto ke bina duniya incomplete hai 😎  
+234. Tum meri duniya ka “Hi!” ho 👋  
+235. Life me chill hona chahiye 😌  
+236. Tum meri duniya ka heart tone ho 💓  
+237. Shayari me tumhara touch zaroor hota hai 💕  
+238. Tum meri duniya ka sweet melody ho 🎵  
+239. Dosto ke bina duniya dull lagti hai 😜  
+240. Tum meri duniya ka happy vibe ho 😍  
+241. Life me attitude bhi zaroori hai 😏  
+242. Tum meri duniya ka sparkle charm ho ✨  
+243. Shayari me tumhara naam sabse special 💌  
+244. Tum meri duniya ka magic mode ho 💫  
+245. Dosto ke bina duniya ka mood off 😔  
+246. Tum meri duniya ka best smile ho 😊  
+247. Life ek party hai, enjoy karo 🎉  
+248. Tum meri duniya ka love code ho ❤️‍🔥  
+249. Shayari me tumhara feel full power 💭  
+250. Tum meri duniya ka emoji blast ho 😂  
+251. Dosto ke bina duniya colourless hai 🎨  
+252. Tum meri duniya ka cute vibe ho 💕  
+253. Life me balance rakho – smile aur style dono 😎  
+254. Tum meri duniya ka soft beat ho 🎶  
+255. Shayari me tumhara chapter repeat hota hai 💌  
+256. Tum meri duniya ka blush tone ho 😊  
+257. Dosto ke bina duniya slow hai ⏳  
+258. Tum meri duniya ka happiness app ho 📱  
+259. Life ek playlist hai, tu mera favourite song 🎵  
+260. Tum meri duniya ka love status ho 💖  
+261. Shayari me tumhara rhyme best lagta hai 💭  
+262. Tum meri duniya ka dreamline ho ✨  
+263. Dosto ke bina duniya incomplete hai 😅  
+264. Tum meri duniya ka soft light ho 💡  
+265. Life me smile ka update daily hona chahiye 😁  
+266. Tum meri duniya ka romantic emoji ho 😍  
+267. Shayari me tumhara dil likha hota hai 💕  
+268. Tum meri duniya ka peaceful zone ho 😌  
+269. Dosto ke bina duniya ki timing off hai ⏰  
+270. Tum meri duniya ka shining star ho 🌟  
+271. Life short, masti long 😎  
+272. Tum meri duniya ka sweet charm ho 💫  
+273. Shayari me tumhara quote best hota hai 💭  
+274. Tum meri duniya ka coffee vibe ho ☕  
+275. Dosto ke bina duniya ka taste gone 😅  
+276. Tum meri duniya ka morning sunshine ho ☀️  
+277. Life me dosti sabse bada investment hai 🤝  
+278. Tum meri duniya ka cool caption ho 💬  
+279. Shayari me tumhara style classy hai 😌  
+280. Tum meri duniya ka lucky charm ho 🍀  
+281. Dosto ke bina duniya static hai 😂  
+282. Tum meri duniya ka funny bone ho 🤣  
+283. Life me smile rakho, stress delete karo 💫  
+284. Tum meri duniya ka night vibe ho 🌙  
+285. Shayari me tumhara mood fixed hai ❤️  
+286. Tum meri duniya ka emoji sparkle ho ✨  
+287. Dosto ke bina duniya mute hai 🔇  
+288. Tum meri duniya ka sugar rush ho 🍭  
+289. Life ek ride hai, seat belt smile wali 😁  
+290. Tum meri duniya ka melody drop ho 🎶  
+291. Shayari me tumhara naam signature hai 💌  
+292. Tum meri duniya ka fire emoji ho 🔥  
+293. Dosto ke bina duniya freeze hai ❄️  
+294. Tum meri duniya ka cute caption ho 🥰  
+295. Life me vibes positive rakho 💫  
+296. Tum meri duniya ka star moment ho 🌠  
+297. Shayari me tumhara charm natural hai 💕  
+298. Tum meri duniya ka happy note ho 🎵  
+299. Dosto ke bina duniya pause hai ⏸️  
+300. Tum meri duniya ka full stop ho ❤️
+301. Tum hans do to lagta hai duniya roshan ho gayi 💫  
+302. Tera naam lene se hi dil me smile aa jaati hai 😊  
+303. Hum to wo pagal hain jo rain me bhi selfie le lein 📸🌧️  
+304. Tum meri zindagi ka wo page ho jise baar baar padhta hoon 💌  
+305. Dil karta hai tumhe har waqt tang karu, kyunki tu hassi me cute lagti hai 😜  
+306. Masti bhi zaroori hai, warna life boring lagti hai 😂  
+307. Shayari likhta hoon, par dil tum pe aata hai ❤️  
+308. Tum meri zindagi ka wo note ho jise delete nahi karta 💭  
+309. Pyar karna meri aadat nahi, tumse hua ek accident hai 😅💖  
+310. Tum meri duniya ka eklauta Wi-Fi signal ho 🔥  
+311. Har baar tu “hi” bolti hai, mera dil “typing...” karne lagta hai 💬  
+312. Tera attitude dekh kar lagta hai, tu Instagram filter me bani hai 😎  
+313. Tumhara smile meri battery charge kar deta hai 🔋  
+314. Shayari me likha naam tera, log ne kaha “wah kya baat hai” 😍  
+315. Pyar hum karte hain, par tumhari ada reason hai 💘  
+316. Tere bina coffee feeki, aur life be-swaad ☕😅  
+317. Tum meri zindagi ka cute bug ho, par crash nahi karti 😂  
+318. Dil karta hai tumhe har din “update” karu 💾  
+319. Tere bina duniya “mute” lagti hai 🔇  
+320. Tum meri khushi ka software ho 💻❤️  
+321. Pyar to sab karte hain, par hum masti me karte hain 😜  
+322. Tumhari aankhon me wo shine hai, jo chand me bhi nahi 🌙✨  
+323. Masti humari aadat hai, aur tu uska reason 😎  
+324. Shayari likhne baithta hoon, par lafz tum ban jaati ho 💭  
+325. Tum meri duniya ka premium version ho 💎  
+326. Pyar me logic nahi, sirf magic hota hai 💫  
+327. Dil karta hai tujhe copy kar lu, par permission nahi milti 😅  
+328. Tum meri duniya ka smiley face ho 😊  
+329. Jab tu hans ti hai, lagta hai zindagi jeet gayi 😍  
+330. Shayari ka matlab hi tu hai 💌  
+331. Tere bina coffee bhi thandi lagti hai ☕🥶  
+332. Tum meri duniya ka sparkle filter ho ✨  
+333. Pyar to sab kahte hain, par hum feel karte hain ❤️  
+334. Tum meri zindagi ka “save” button ho 💾  
+335. Dil karta hai tujhe har waqt dekhte rahu 👀  
+336. Shayari likhta hoon, aur tu meri headline ban jaati hai 📰  
+337. Tum meri duniya ka favourite notification ho 🔔  
+338. Masti humari default setting hai 😜  
+339. Tum meri duniya ka emoji queen ho 👑  
+340. Pyar me “status” nahi, “feelings” matter karti hain 💖  
+341. Tere jaisi smile duniya me rare hai 😍  
+342. Shayari me tumhara mention mandatory hai 💬  
+343. Tum meri duniya ka brightness ho 🌟  
+344. Dil karta hai tujhe har baar tag karu 💭  
+345. Tum meri duniya ka sparkle reason ho 💫  
+346. Pyar to ek shabd hai, par tu uska meaning 💕  
+347. Shayari likhne ke liye tum inspiration ho ✍️  
+348. Tum meri duniya ka soft corner ho 💗  
+349. Dil karta hai tujhe “pinned chat” bana du 📌  
+350. Tum meri duniya ka heart icon ho 💓  
+351. Shayari me tumhara naam likh ke muskurata hoon 😌  
+352. Tum meri duniya ka “online” happiness ho 💬  
+353. Masti me bhi ek class hoti hai 😎  
+354. Tum meri duniya ka “cute error” ho 😂  
+355. Pyar karte hain hum, lekin style me 😏  
+356. Tum meri duniya ka “sweet alert” ho 🍭  
+357. Shayari likhta hoon, tumhari photo dekh ke 😍  
+358. Tum meri duniya ka emoji reaction ho 😂❤️  
+359. Dil karta hai tumhe “always active” bana du 💫  
+360. Tum meri duniya ka background music ho 🎶  
+361. Pyar tumhara “uninstall” nahi kar sakta 😅  
+362. Tum meri duniya ka night light ho 🌙  
+363. Shayari me tumhara feel har line me hai 💌  
+364. Tum meri duniya ka voice note ho 🎤  
+365. Dil karta hai tujhe har line me likh du 😍  
+366. Tum meri duniya ka status update ho 💬  
+367. Masti me bhi dil lagta hai 😜  
+368. Tum meri duniya ka “auto smile” ho 😊  
+369. Shayari me tum meri last line ho ❤️  
+370. Tum meri duniya ka filter nahi, asli beauty ho 🌸  
+371. Dil karta hai tujhe har waqt call karu 📞  
+372. Tum meri duniya ka romantic ringtone ho 🎵  
+373. Shayari likhne ka reason sirf tu hai 💭  
+374. Tum meri duniya ka best chapter ho 📖  
+375. Pyar tumse itna kiya hai ki data full ho gaya 😅  
+376. Tum meri duniya ka favorite emoji ho 😍  
+377. Dil karta hai tujhe har din likh du 💕  
+378. Tum meri duniya ka khayal ho 💫  
+379. Shayari me tum meri heartbeat ho 💓  
+380. Tum meri duniya ka best screenshot ho 📸  
+381. Pyar tumhara HD quality me milta hai 😂  
+382. Tum meri duniya ka voice command ho 🎤  
+383. Shayari me tum meri poetry ka title ho 💌  
+384. Tum meri duniya ka sugar cube ho 🍬  
+385. Dil karta hai tujhe like nahi, love karu ❤️  
+386. Tum meri duniya ka battery saver ho 🔋  
+387. Shayari me tum meri ending ho 😍  
+388. Tum meri duniya ka best update ho 💾  
+389. Pyar tumhara ek app hai jo kabhi crash nahi hota 😜  
+390. Tum meri duniya ka rainbow ho 🌈  
+391. Shayari me tum meri rhyme ho 💭  
+392. Tum meri duniya ka romantic bug ho 💕  
+393. Dil karta hai tujhe hug kar lu 🤗  
+394. Tum meri duniya ka sparkle sticker ho ✨  
+395. Shayari me tum meri vibe ho 😇  
+396. Tum meri duniya ka quote ho 💬  
+397. Pyar tumse offline bhi online jaisa hai 😍  
+398. Tum meri duniya ka sweet heart ho 💓  
+399. Shayari me tum meri sign line ho 💌  
+400. Tum meri duniya ka best edit ho 🎨  
+401. Dil karta hai tujhe har baar “send” kar du 💬  
+402. Tum meri duniya ka romantic ping ho 💖  
+403. Shayari me tum meri flow ho 💭  
+404. Tum meri duniya ka sparkle post ho ✨  
+405. Pyar tumhara ek trend hai jo kabhi old nahi hota 💞  
+406. Tum meri duniya ka vibe alert ho 🔔  
+407. Shayari me tum meri reason ho ❤️  
+408. Tum meri duniya ka smile zone ho 😊  
+409. Dil karta hai tujhe copy paste kar du 😅  
+410. Tum meri duniya ka love file ho 💾  
+411. Shayari me tum meri direction ho 🧭  
+412. Tum meri duniya ka selfie pose ho 📸  
+413. Pyar tumhara 24/7 online hai 😂  
+414. Tum meri duniya ka song lyric ho 🎶  
+415. Shayari me tum meri verse ho 💌  
+416. Tum meri duniya ka sweet reminder ho ⏰  
+417. Dil karta hai tujhe har din forward kar du 😍  
+418. Tum meri duniya ka cool emoji ho 😎  
+419. Shayari me tum meri sparkle ho ✨  
+420. Tum meri duniya ka perfect story ho 📖  
+421. Pyar tumhara full version hai 💕  
+422. Tum meri duniya ka highlight moment ho 💫  
+423. Shayari me tum meri ink ho ✍️  
+424. Tum meri duniya ka sweet mood ho 💖  
+425. Dil karta hai tujhe pin kar du 💫  
+426. Tum meri duniya ka vibe signal ho 📶  
+427. Shayari me tum meri rhyme reason ho 💭  
+428. Tum meri duniya ka love status ho ❤️‍🔥  
+429. Pyar tumhara ek habit ban gaya hai 😌  
+430. Tum meri duniya ka battery backup ho 🔋  
+431. Shayari me tum meri heart line ho 💕  
+432. Tum meri duniya ka favorite DM ho 💬  
+433. Dil karta hai tujhe har baar tag karu 😍  
+434. Tum meri duniya ka last seen ho 👀  
+435. Shayari me tum meri title line ho 💌  
+436. Tum meri duniya ka positive vibe ho ✨  
+437. Pyar tumhara ek festival hai ❤️  
+438. Tum meri duniya ka trending topic ho 🔥  
+439. Shayari me tum meri poetry ka soul ho 💭  
+440. Tum meri duniya ka heart signal ho 💓  
+441. Dil karta hai tujhe offline milu 😅  
+442. Tum meri duniya ka sparkle smile ho 😊  
+443. Shayari me tum meri full stop ho ❤️  
+444. Tum meri duniya ka romantic filter ho 💕  
+445. Pyar tumhara HD wallpaper hai 😍  
+446. Tum meri duniya ka soft glow ho 💫  
+447. Shayari me tum meri expression ho 💌  
+448. Tum meri duniya ka love note ho 💖  
+449. Dil karta hai tujhe har waqt mention karu 😅  
+450. Tum meri duniya ka charm code ho 💕  
+451. Shayari me tum meri line break ho 😌  
+452. Tum meri duniya ka star emoji ho 🌟  
+453. Pyar tumhara best comment hai 😍  
+454. Tum meri duniya ka love caption ho 💬  
+455. Shayari me tum meri full rhyme ho 💭  
+456. Tum meri
